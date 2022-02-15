@@ -17,7 +17,7 @@ const Axios = ():JSX.Element => {
         .catch((err) => {
             setError(err.message)
         })
-    })
+    }, [])
 
 
 
